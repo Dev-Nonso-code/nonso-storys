@@ -1,0 +1,347 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#head1 {
+    border-radius: 10px;
+    position: fixed;
+    z-index: 3;
+    height: 5em;
+    width: 60em;
+    margin: 2px 4em;
+    display: flex;
+    background-color: burlywood;
+    color: cyan;
+
+    #imgdiv {
+        width: 6em;
+        height: 5.5em;
+        background-color: indianred;
+        border-radius: 12px;
+        margin: 9px;
+        cursor: pointer;
+
+        #eeo {
+            margin: 10px 1em;
+        }
+    }
+
+    #imgdiv:hover {
+        background-color: rgb(0, 0, 0.4);
+        transition: all 0.6s ease-in-out;
+    }
+
+    #maim {
+        margin: -5em 0px 0px 24em;
+
+        a {
+            padding-left: 2em;
+            text-decoration: none;
+            color: #ffff;
+        }
+
+        #afri:focus-within #sub {
+            visibility: visible;
+            display: block;
+        }
+
+        #afri {
+            margin: -1.4em 0px 0px 17em;
+            display: flex;
+
+            #afrdiv {
+                border-radius: 4px;
+                margin-top: -10px;
+                padding: 10px 10px;
+                cursor: pointer;
+                height: 3em;
+                width: fit-content;
+                background-color: rgb(0, 0, 05);
+
+                #iof {
+                    padding: 6px;
+                    color: #ffff;
+                    font-size: 1.4em;
+                }
+
+                a {
+                    color: #ffff;
+                }
+            }
+
+            #afrdiv:hover {
+                transition: all 0.6s ease-in-out;
+                background-color: chartreuse;
+                color: black;
+                border-style: none;
+            }
+
+            #sub {
+                // display: none;
+                visibility: hidden;
+                // position: relative;
+                width: fit-content;
+                height: 10em;
+                background-color: black;
+                margin: 2.8em 1em 0px -11em;
+                border-radius: 10px;
+                padding: 12px 6px;
+
+                #subitem {
+                    cursor: pointer;
+                    width: 12em;
+                    height: 2.1em;
+                    background-color: black;
+                }
+
+                #subitem:hover {
+                    text-transform: uppercase;
+                    background-color: chartreuse;
+                }
+
+                #bob {
+                    display: flex;
+                    margin: -8.6em 0px 0px 11em;
+                    // box-shadow: #ffff;
+                }
+            }
+        }
+
+        a:hover {
+            transition: all 0.6s ease-in-out;
+            color: black;
+        }
+    }
+}
+
+#oop {
+    margin: 0px 0px 1em 1em;
+}
+
+#df {
+
+    #ytd {
+        margin: 8em 0px 0px 2.6em;
+
+        img {
+            border-radius: 11px;
+        }
+    }
+}
+
+main {
+    margin: auto;
+
+    #art1 {
+        margin: 1em 0px 0px 2em;
+
+        h1 {
+            margin: 1em 0px 12px 4.9em;
+            color: chocolate;
+        }
+
+        p {
+            color: #de22dd;
+            font-size: 1em;
+            font-style: oblique;
+            font-weight: 700;
+        }
+
+        #p2 {
+            max-width: 44em;
+            flex-wrap: wrap;
+            color: red;
+            font-size: 1.4em;
+            font-family: monospace;
+        }
+    }
+
+    #mar {
+
+        #mar1 {
+            margin: 2em 0px 0px 0px;
+
+            #kool {
+                margin-left: 2em;
+                display: inline-flex;
+
+                img {
+                    width: 7em;
+                    height: 4.9em;
+                    border-radius: 8px;
+                }
+            }
+        }
+
+        #mar2 {
+            margin: 2em 0px 0px 0px;
+
+            #kol {
+                margin-left: 2em;
+                display: inline-flex;
+
+                img {
+                    width: 7em;
+                    height: 4.9em;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+
+    #video {
+        cursor: pointer;
+        max-width: 80em;
+        height: 20em;
+        //   background-color: #de22dd;
+        background-color: #ffff;
+        margin: auto;
+        border-radius: 4px;
+
+
+        video {
+            padding-top: 1em;
+            margin: auto;
+            width: 60em;
+            height: 18em;
+            border-radius: 10px;
+        }
+    }
+
+    #video:hover {
+        background-color: cadetblue;
+        transition: all 0.6s ease-in-out;
+    }
+
+    #tpp:hover {
+        background-color: burlywood;
+        transform: rotate(0, 02);
+        transition-duration: 8s;
+    }
+
+    #tpp {
+        border-radius: 10px;
+        background-color: rgb(0, 0, 0.4);
+
+        h4 {
+            color: #ffff;
+        }
+
+        #pt {
+            max-width: 20em;
+            flex-wrap: wrap;
+            margin: 0px 0px 0px 40em;
+
+            div {
+                border-radius: 20px;
+                margin-top: 1em;
+                display: inline-flex;
+                width: 5em;
+                height: 4em;
+                background-color: #de22dd;
+                color: #ffff;
+
+                a {
+
+                    img {
+                        margin: 11px 22px;
+                        border-radius: 10px;
+                        width: 3em;
+                        height: 3em;
+                    }
+                }
+            }
+
+            div:hover {
+                background-color: coral;
+                transition: all 0.7s ease-in-out;
+            }
+        }
+
+        #no {
+            margin: -2.4em 0px 0px 37em;
+
+            h3 {
+                color: cornsilk;
+                font-family: fantasy;
+            }
+        }
+    }
+    #accordionExample{
+        z-index: -2;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #head1 {
+
+        margin: 0px 1.4em 0px 1em;
+        width: 550px;
+
+        #maim {
+            margin: -5em 0px 0px 6em;
+        }
+
+    }
+
+    #oop {
+        margin: 0px 0px 1em 32em;
+    }
+
+    #df {
+        // background-image: url(./logo.jpg);
+        background-image: url(./pics/fela\ afri.jpg);
+        background-size: cover;
+        background-clip: content-box;
+
+        #img {
+            visibility: collapse;
+        }
+    }
+
+    #video {
+        cursor: pointer;
+        max-width: 30em;
+
+        video {
+            width: 20em;
+        }
+
+    }
+
+    #tpp {
+
+        #pt {
+            margin: 0px 0px 0px 0em;
+
+            div {
+                display: inline-flex;
+                margin-left: -11em;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    #head1 {
+        display: all;
+    }
+
+    #oop {
+        display: none;
+    }
+
+    #carouselExampleInterval {
+        display: none;
+        visibility: hidden;
+    }
+    body{
+        overflow-y: visible;
+        overflow-x: auto;
+    }
+}

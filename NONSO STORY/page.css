@@ -1,0 +1,101 @@
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  #boy {
+    width: 370px;
+    margin: auto;
+  }
+  body {
+    overflow-x: hidden;
+    
+  }
+  #headingOne {
+    position: fixed;
+  }
+  #kol {
+    max-width: 400px;
+  }
+  #kol h4 {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 412px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#kol{
+    max-width: 397px;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+#pop{
+    max-width: 389px;
+}
+#headingOne{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-width: 390pxx;
+}
+}
+@media only screen and (max-width: 380px) {
+    body {
+      overflow-x: hidden;
+      overflow-y: scroll;
+  }
+  #kol{
+      max-width: 377px;
+      flex-wrap: wrap;
+      overflow-x: hidden;
+  }
+  #pop{
+      max-width: 377px;
+  }
+  #headingOne{
+      overflow-x: hidden;
+      overflow-y: scroll;
+      max-width: 377pxx;
+  }
+  }
+  @media only screen and (max-width: 310px) {
+    body {
+      overflow-x: hidden;
+      overflow-y: scroll;
+  }
+  #kol{
+      max-width: 309px;
+      flex-wrap: wrap;
+      overflow-x: hidden;
+  }
+  #pop{
+      max-width: 309px;
+  }
+  #headingOne{
+      overflow-x: hidden;
+      overflow-y: scroll;
+      max-width: 309pxx;
+  }
+  }
+  @media only screen and (max-width: 414px) {
+    body {
+      overflow-x: hidden;
+      overflow-y: scroll;
+  }
+  #kol{
+      max-width: 414px;
+      flex-wrap: wrap;
+      overflow-x: hidden;
+  }
+  #pop{
+      max-width: 414px;
+  }
+  #headingOne{
+      overflow-x: hidden;
+      overflow-y: scroll;
+      max-width: 414pxx;
+  }
+  }
+
+/*# sourceMappingURL=page.css.map */

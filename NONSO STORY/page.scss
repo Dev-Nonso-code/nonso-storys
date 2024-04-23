@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    #boy{
+        width: 370px;
+        margin: auto;
+    }
+    body{
+        overflow-x: hidden;
+        overflow: hidden;
+        overflow-wrap: break-word;
+    }
+    #headingOne{
+        position: fixed;
+    }
+    #kol{
+        max-width: 400px;
+        h4{
+            width: 300px;
+        }
+    }
+}
+@media only screen and (max-width: 412px) {
+    body{
+        overflow: hidden;
+    }
+    
+}

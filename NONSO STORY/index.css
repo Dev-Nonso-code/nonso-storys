@@ -1,0 +1,277 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#head1 {
+  border-radius: 10px;
+  position: fixed;
+  z-index: 3;
+  height: 5em;
+  width: 60em;
+  margin: 2px 4em;
+  display: flex;
+  background-color: burlywood;
+  color: cyan;
+}
+#head1 #imgdiv {
+  width: 6em;
+  height: 5.5em;
+  background-color: indianred;
+  border-radius: 12px;
+  margin: 9px;
+  cursor: pointer;
+}
+#head1 #imgdiv #eeo {
+  margin: 10px 1em;
+}
+#head1 #imgdiv:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 0.6s ease-in-out;
+}
+#head1 #maim {
+  margin: -5em 0px 0px 24em;
+}
+#head1 #maim a {
+  padding-left: 2em;
+  text-decoration: none;
+  color: white;
+}
+#head1 #maim #afri:focus-within #sub {
+  visibility: visible;
+  display: block;
+}
+#head1 #maim #afri {
+  margin: -1.4em 0px 0px 17em;
+  display: flex;
+}
+#head1 #maim #afri #afrdiv {
+  border-radius: 4px;
+  margin-top: -10px;
+  padding: 10px 10px;
+  cursor: pointer;
+  height: 3em;
+  width: fit-content;
+  background-color: rgb(0, 0, 5);
+}
+#head1 #maim #afri #afrdiv #iof {
+  padding: 6px;
+  color: white;
+  font-size: 1.4em;
+}
+#head1 #maim #afri #afrdiv a {
+  color: white;
+}
+#head1 #maim #afri #afrdiv:hover {
+  transition: all 0.6s ease-in-out;
+  background-color: chartreuse;
+  color: black;
+  border-style: none;
+}
+#head1 #maim #afri #sub {
+  visibility: hidden;
+  width: fit-content;
+  height: 10em;
+  background-color: black;
+  margin: 2.8em 1em 0px -11em;
+  border-radius: 10px;
+  padding: 12px 6px;
+}
+#head1 #maim #afri #sub #subitem {
+  cursor: pointer;
+  width: 12em;
+  height: 2.1em;
+  background-color: black;
+}
+#head1 #maim #afri #sub #subitem:hover {
+  text-transform: uppercase;
+  background-color: chartreuse;
+}
+#head1 #maim #afri #sub #bob {
+  display: flex;
+  margin: -8.6em 0px 0px 11em;
+}
+#head1 #maim a:hover {
+  transition: all 0.6s ease-in-out;
+  color: black;
+}
+
+#oop {
+  margin: 0px 0px 1em 1em;
+}
+
+#df #ytd {
+  margin: 8em 0px 0px 2.6em;
+}
+#df #ytd img {
+  border-radius: 11px;
+}
+
+main {
+  margin: auto;
+}
+main #art1 {
+  margin: 1em 0px 0px 2em;
+}
+main #art1 h1 {
+  margin: 1em 0px 12px 4.9em;
+  color: chocolate;
+}
+main #art1 p {
+  color: #de22dd;
+  font-size: 1em;
+  font-style: oblique;
+  font-weight: 700;
+}
+main #art1 #p2 {
+  max-width: 44em;
+  flex-wrap: wrap;
+  color: red;
+  font-size: 1.4em;
+  font-family: monospace;
+}
+main #mar #mar1 {
+  margin: 2em 0px 0px 0px;
+}
+main #mar #mar1 #kool {
+  margin-left: 2em;
+  display: inline-flex;
+}
+main #mar #mar1 #kool img {
+  width: 7em;
+  height: 4.9em;
+  border-radius: 8px;
+}
+main #mar #mar2 {
+  margin: 2em 0px 0px 0px;
+}
+main #mar #mar2 #kol {
+  margin-left: 2em;
+  display: inline-flex;
+}
+main #mar #mar2 #kol img {
+  width: 7em;
+  height: 4.9em;
+  border-radius: 8px;
+}
+main #video {
+  cursor: pointer;
+  max-width: 80em;
+  height: 20em;
+  background-color: white;
+  margin: auto;
+  border-radius: 4px;
+}
+main #video video {
+  padding-top: 1em;
+  margin: auto;
+  width: 60em;
+  height: 18em;
+  border-radius: 10px;
+}
+main #video:hover {
+  background-color: cadetblue;
+  transition: all 0.6s ease-in-out;
+}
+main #tpp:hover {
+  background-color: burlywood;
+  transform: rotate(0, 2);
+  transition-duration: 8s;
+}
+main #tpp {
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+}
+main #tpp h4 {
+  color: white;
+}
+main #tpp #pt {
+  max-width: 20em;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 40em;
+}
+main #tpp #pt div {
+  border-radius: 20px;
+  margin-top: 1em;
+  display: inline-flex;
+  width: 5em;
+  height: 4em;
+  background-color: #de22dd;
+  color: white;
+}
+main #tpp #pt div a img {
+  margin: 11px 22px;
+  border-radius: 10px;
+  width: 3em;
+  height: 3em;
+}
+main #tpp #pt div:hover {
+  background-color: coral;
+  transition: all 0.7s ease-in-out;
+}
+main #tpp #no {
+  margin: -2.4em 0px 0px 37em;
+}
+main #tpp #no h3 {
+  color: cornsilk;
+  font-family: fantasy;
+}
+main #accordionExample {
+  z-index: -2;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  #head1 {
+    margin: 0px 1.4em 0px 1em;
+    width: 550px;
+  }
+  #head1 #maim {
+    margin: -5em 0px 0px 6em;
+  }
+  #oop {
+    margin: 0px 0px 1em 32em;
+  }
+  #df {
+    background-image: url(./pics/fela\ afri.jpg);
+    background-size: cover;
+    background-clip: content-box;
+  }
+  #df #img {
+    visibility: collapse;
+  }
+  #video {
+    cursor: pointer;
+    max-width: 30em;
+  }
+  #video video {
+    width: 20em;
+  }
+  #tpp #pt {
+    margin: 0px 0px 0px 0em;
+  }
+  #tpp #pt div {
+    display: inline-flex;
+    margin-left: -11em;
+  }
+}
+@media only screen and (max-width: 412px) {
+  #head1 {
+    display: all;
+  }
+  #oop {
+    display: none;
+  }
+  #carouselExampleInterval {
+    display: none;
+    visibility: hidden;
+  }
+  body {
+    overflow-y: visible;
+    overflow-x: auto;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
